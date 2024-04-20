@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import Blog from './components/Blog/Blog'
+import Header from './components/Header/Header'
+import Bookmarks from './components/Bookmarks/Bookmarks'
 
 import './App.css'
 
@@ -10,8 +12,11 @@ function App() {
     <>
      
         
-      <h1>Knowledge Cafe</h1>
+      <Header></Header>
+      <div className='md:flex'>
       <Blog></Blog>
+      <Bookmarks></Bookmarks>
+      </div>
       
       
     </>

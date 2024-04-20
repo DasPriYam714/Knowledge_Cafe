@@ -12,7 +12,7 @@ const Blog = () => {
         .then(console.log(setBlogs))
     }, [])
     return (
-        <div>
+        <div className="md: w-2/3">
             blog:{blogs.length};
             
         </div>
