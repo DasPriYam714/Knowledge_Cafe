@@ -7,11 +7,17 @@ import './App.css'
 
 function App() {
   const [bookmarks, setBookmarks] = useState([])
+  const [readingTime, setReadingTime]= useState(0)
 
   const handleAddToBookmarks = blog => {
     const newBookmarks = [...bookmarks, blog]
     setBookmarks(newBookmarks)
 
+  }
+
+  const handleReadingTime = time => {
+    const newReadingTime = readingTime + time;
+    setReadingTime(newReadingTime)
   }
 
   return (
@@ -20,8 +26,8 @@ function App() {
         
       <Header></Header>
       <div className='md:flex'>
-      <Blog handleAddToBookmarks={handleAddToBookmarks}></Blog>
-      <Bookmarks bookmarks={bookmarks}></Bookmarks>
+      <Blog handleAddToBookmarks={handleAddToBookmarks} handleReadingTime={handleReadingTime}></Blog>
+      <Bookmarks readingTime={readingTime} bookmarks={bookmarks}></Bookmarks>
       </div>
       
       

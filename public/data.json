@@ -6,7 +6,7 @@
       "author": "John Smith",
       "author_img": "https://i.ibb.co/mvhg9pK/50955.jpg",
       "posted_date": "2024-04-19",
-      "reading_time": "5 min",
+      "reading_time": 5,
       "hastags": "#beach #vacation #travel"
     },
     {
@@ -16,7 +16,7 @@
       "author": "Jane Doe",
       "author_img": "https://i.ibb.co/MfMVTHJ/woman-7854120-1280.png",
       "posted_date": "2024-04-18",
-      "reading_time": "7 min",
+      "reading_time": 7,
       "hastags": "#city #travel #adventure"
     },
     {
@@ -26,7 +26,7 @@
       "author": "Mike Lee",
       "author_img": "https://i.ibb.co/1Q2xHr9/man-156584-1280.png",
       "posted_date": "2024-04-17",
-      "reading_time": "10 min",
+      "reading_time": 10,
       "hastags": "#food #travel #culture"
     },
     {
@@ -36,7 +36,7 @@
       "author": "Sarah Jones",
       "author_img": "[https://www.instagram.com/sjonig/?hl=en](https://www.instagram.com/sjonig/?hl=en)",
       "posted_date": "2024-04-16",
-      "reading_time": "8 min",
+      "reading_time": 8,
       "hastags": "#hiking #mountainclimbing #adventure"
     },
     {
@@ -46,7 +46,7 @@
       "author": "David Kim",
       "author_img": "https://i.ibb.co/RzFp3KT/avatar-7889246-1280.jpg",
       "posted_date": "2024-04-15",
-      "reading_time": "12 min",
+      "reading_time": 12,
       "hastags": "#science #space #astronomy"
     },
     {
@@ -56,7 +56,7 @@
       "author": "Emily Williams",
       "author_img": "https://i.ibb.co/1rK7fy2/7309685.jpg",
       "posted_date": "2024-04-14",
-      "reading_time": "6 min",
+      "reading_time": 6,
       "hastags": "#history #travel #culture"
     },
     {
@@ -66,7 +66,7 @@
       "author": "Charles Miller",
       "author_img": "https://i.ibb.co/r3rknRd/9440461.jpg",
       "posted_date": "2024-04-13",
-      "reading_time": "9 min",
+      "reading_time": 9,
       "hastags": "#yoga #meditation #wellness"
     },
     {
@@ -76,7 +76,7 @@
       "author": "Amanda Brown",
       "author_img": "https://i.ibb.co/zSX9XQP/9439678.jpg",
       "posted_date": "2024-04-12",
-      "reading_time": "15 min",
+      "reading_time": 5,
       "hastags": "#photography #travel #art"
     },
     {
@@ -86,7 +86,7 @@
       "author": "Daniel Garcia",
       "author_img": "https://i.ibb.co/GTLmRrQ/2289-Sk-VNQSBGQU1-PIDEw-Mjgt-MTIy.jpg",
       "posted_date": "2024-04-11",
-      "reading_time": "11 min",
+      "reading_time": 11,
       "hastags": "#music #culture #entertainment"
     }
 ]
