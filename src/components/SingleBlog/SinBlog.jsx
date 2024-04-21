@@ -5,7 +5,7 @@ const SinBlog = ({blog,handleAddToBookmarks}) => {
     const{title,cover, author, author_img,reading_time, posted_date,hastags} = blog;
     return (
         <div>
-            <img src={cover} alt={`this pic is come from ${title}`} />
+            <img className='w-full' src={cover} alt={`this pic is come from ${title}`} />
             <div className='flex justify-between'>
                 <div className='flex' >
                     <div >
@@ -21,11 +21,11 @@ const SinBlog = ({blog,handleAddToBookmarks}) => {
                 </div>
                 <div>
                     {reading_time} reading time
-                    <button className='ml-1' onClick={handleAddToBookmarks}><FaRegBookmark></FaRegBookmark></button>
+                    <button className='ml-1' onClick={() =>handleAddToBookmarks(blog)}><FaRegBookmark></FaRegBookmark></button>
 
                 </div>
             </div>
-            <h1>Title:{title}</h1>
+            <h1 className='text-2xl'>Title:{title}</h1>
 
             <div  className='justify-start'>
             <p>
@@ -45,7 +45,8 @@ const SinBlog = ({blog,handleAddToBookmarks}) => {
 };
 
 SinBlog.propTypes = {
-    blog : PropTypes.object.isRequired
+    blog : PropTypes.object.isRequired,
+    handleAddToBookmarks : PropTypes.func,
 }
 
 export default SinBlog;
