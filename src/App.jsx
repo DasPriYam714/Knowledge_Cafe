@@ -6,7 +6,12 @@ import Bookmarks from './components/Bookmarks/Bookmarks'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [bookmarks, setBookmarks] = useState([])
+
+  const handleAddToBookmarks = blog => {
+    console.log("Add to bookmarks")
+
+  }
 
   return (
     <>
@@ -14,7 +19,7 @@ function App() {
         
       <Header></Header>
       <div className='md:flex'>
-      <Blog></Blog>
+      <Blog handleAddToBookmarks={handleAddToBookmarks}></Blog>
       <Bookmarks></Bookmarks>
       </div>
       
